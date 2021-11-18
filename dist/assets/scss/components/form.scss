@@ -1,0 +1,26 @@
+.login {
+    padding-top: 231px;
+    width: 288px;
+    margin: 0 auto;
+    &__title {
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 13px;
+    }
+    &__form {
+        input {
+            display: block;
+            width: 268px;
+            height: 44px;
+            border: 1px solid #000;
+            margin-bottom: 20px;
+            padding-left: 20px;
+            &::placeholder {
+                text-align: center;
+            }
+            &:last-child {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

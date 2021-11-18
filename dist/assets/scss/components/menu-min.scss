@@ -1,0 +1,10 @@
+.header {
+    margin-left: 50px;
+    padding-top: 30px;
+    &__menu {
+        a {
+            font-size: 16px;
+            color: #000;
+        }
+    }
+}

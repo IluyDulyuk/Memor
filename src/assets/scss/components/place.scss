@@ -1,0 +1,56 @@
+.tags {
+    padding-bottom: 30px;
+    &__wrapper {
+        padding-left: 50px;
+        p {
+            font-size: 16px;
+        }
+    }
+}
+
+.slider__wrapper {
+    width: 590px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+
+.slider {
+    width: 596px;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    li {
+        margin-right: 2px;
+        margin-left: 2px;
+        &:first-child {
+            margin-left: 0px;
+        }
+        button {
+            font-size: 0px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: gray;
+            cursor: pointer;
+        }
+    }
+    li.slick-active {
+        button {
+            background: #000;
+            cursor: pointer;
+        }
+    }
+}
+
+.location {
+    padding-left: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.about {
+    padding-left: 50px;
+    font-size: 16px;
+}

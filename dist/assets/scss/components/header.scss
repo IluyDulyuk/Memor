@@ -1,0 +1,51 @@
+.header-big {
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-bottom: 78px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    &__menu {
+        ul {
+            display: flex;
+            align-items: center;
+            li { 
+                &:nth-child(1) {
+                    margin-right: 41px;
+                }
+                &:nth-child(2) {
+                    margin-right: 15px;
+                }
+                a {
+                    font-size: 16px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .header__search {
+        width: 339px;
+        position: relative;
+        input {
+            width: 319px;
+            padding-left: 20px;
+        }
+        &:after {
+            content: '';
+            width: 100%;
+            height: 1px;
+            background-color: #000;
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+        }
+        .seacrh__icon {
+            display: block;
+            width: 16px;
+            position: absolute;
+            right: 20px;
+            top: 0;
+            cursor: pointer;
+        }
+    }
+}
